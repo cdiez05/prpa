@@ -1,0 +1,104 @@
+Script started on Tue Feb  7 15:20:05 2023
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+[?1034hbash-3.2$ mv ../0_procesos.py .[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd prpr[Ka/
+bash-3.2$ ls
+0_procesos.py	README.md
+bash-3.2$ mv ../0_procesos.py .[1P[1@1
+bash-3.2$ git add 0_procesos.py[1P_procesos.py1_procesos.py
+bash-3.2$ git commit -m "Mi segundo rp[K[Kprograma"
+[main dc11e62] Mi segundo programa
+ 1 file changed, 21 insertions(+)
+ create mode 100644 1_procesos.py
+bash-3.2$ git push
+Enumerating objects: 4, done.
+Counting objects:  25% (1/4)Counting objects:  50% (2/4)Counting objects:  75% (3/4)Counting objects: 100% (4/4)Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects:  33% (1/3)Compressing objects:  66% (2/3)Compressing objects: 100% (3/3)Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 543 bytes | 543.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To github.com:cdiez05/prpa.git
+   032a3d5..dc11e62  main -> main
+bash-3.2$ ls
+0_procesos.py	1_procesos.py	README.md
+bash-3.2$ mv ../1_procesos.py .[1P[1@2
+bash-3.2$ git add 1_procesos.py[C[1P_procesos.py2_procesos.py
+bash-3.2$ git commit -m "Mi tercer r[Kprgrama"
+[main 0c71865] Mi tercer prgrama
+ 1 file changed, 22 insertions(+)
+ create mode 100644 2_procesos.py
+bash-3.2$ git push
+Enumerating objects: 4, done.
+Counting objects:  25% (1/4)Counting objects:  50% (2/4)Counting objects:  75% (3/4)Counting objects: 100% (4/4)Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects:  33% (1/3)Compressing objects:  66% (2/3)Compressing objects: 100% (3/3)Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 601 bytes | 601.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To github.com:cdiez05/prpa.git
+   dc11e62..0c71865  main -> main
+bash-3.2$ ls -al
+total 32
+drwxr-xr-x   7 carlosdm  staff   224  7 feb 15:26 .
+drwxr-xr-x+ 76 carlosdm  staff  2432  7 feb 15:26 ..
+drwxr-xr-x  13 carlosdm  staff   416  7 feb 15:26 .git
+-rw-r--r--   1 carlosdm  staff   359  7 feb 12:31 0_procesos.py
+-rw-r--r--   1 carlosdm  staff   391  7 feb 12:43 1_procesos.py
+-rw-r--r--   1 carlosdm  staff   509  7 feb 12:49 2_procesos.py
+-rw-r--r--   1 carlosdm  staff     6  7 feb 12:18 README.md
+bash-3.2$ ls
+0_procesos.py	1_procesos.py	2_procesos.py	README.md
+bash-3.2$ mv ../2_procesos.py .[1P[1@3
+bash-3.2$ git add 3_procesos.py
+bash-3.2$ git commit -m "Mi cuarto profe[K[Kgrama"
+[main 61ce9fe] Mi cuarto programa
+ 1 file changed, 20 insertions(+)
+ create mode 100644 3_procesos.py
+bash-3.2$ git ou[K[Kpush
+Enumerating objects: 4, done.
+Counting objects:  25% (1/4)Counting objects:  50% (2/4)Counting objects:  75% (3/4)Counting objects: 100% (4/4)Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects:  33% (1/3)Compressing objects:  66% (2/3)Compressing objects: 100% (3/3)Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 551 bytes | 551.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To github.com:cdiez05/prpa.git
+   0c71865..61ce9fe  main -> main
+bash-3.2$ mv ../3_procesos.py .
+mv: ../3_procesos.py: No such file or directory
+bash-3.2$ mv ../3_procesos.py .[1P[1@4
+bash-3.2$ git add 4_procesos.py
+bash-3.2$ git commit -m "Mi quinto programa"
+[main 5afa8a7] Mi quinto programa
+ 1 file changed, 28 insertions(+)
+ create mode 100644 4_procesos.py
+bash-3.2$ git push
+Enumerating objects: 4, done.
+Counting objects:  25% (1/4)Counting objects:  50% (2/4)Counting objects:  75% (3/4)Counting objects: 100% (4/4)Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects:  33% (1/3)Compressing objects:  66% (2/3)Compressing objects: 100% (3/3)Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 572 bytes | 572.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To github.com:cdiez05/prpa.git
+   61ce9fe..5afa8a7  main -> main
+bash-3.2$ pwd
+/Users/carlosdm/prpa
+bash-3.2$ cd ..
+bash-3.2$ pwd
+/Users/carlosdm
+bash-3.2$ ls
+Applications			Pictures
+Carlos 3 (Coronavirus).pdf	Public
+Cw_1_stats.Rmd			claveprpa?[D?[D
+Descargas			claveprpa?[D?[D.pub
+Desktop				exam_june.Rmd
+Documents			medias.py
+Downloads			medias.txt
+HIO7*{ácido}^-1.svg		multiprocessing.txt
+Library				opt
+Movies				patata.hs
+Music				prpa
+Paralela			ssh.zip
+bash-3.2$ 
